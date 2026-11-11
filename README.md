@@ -22,8 +22,15 @@ Follow these quick steps to get the game running locally on your machine:
 
 ### Prerequisites
 Make sure you have [Python 3.x](https://www.python.org/) installed on your computer. You can check by running this in your terminal:
-```bash
+```
 python --version
+```
+
+Once python is installed, download the file `hangman.py`. <br> 
+
+Then, run this in your project's terminal: <br> 
+```
+python hangman.py
 ```
 
 ---
