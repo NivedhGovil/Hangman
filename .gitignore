@@ -1,0 +1,13 @@
+# PyInstaller temporary files
+/build/
+
+# Executable distribution
+/dist/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
