@@ -20,26 +20,25 @@ def main():
     guesses = 15
     while True: 
         if guesses == 0: 
-            print(f"You are out of guesses! the word was {code_word}")
+            print(f"You are out of guesses! The word was {code_word}")
             break
         a = input("What's your guess? ").lower()
 
-        if len(a) == 1 and a.isalpha():
-            guess_letters.append(a)
-        else:
-            print("Enter one letter at a time.")
+        if len(a) != 1 or not a.isalpha():
+            print("Enter a single letter at a time")
+            continue
+
+        guess_letters.append(a)
+
+
+        
         x = dashmaker(code_word, guess_letters)
-        if a not in code_word: 
+        if a not in code_word:
             guesses -= 1
-            print(x)
-        elif a in code_word: 
-            
-            print(x)
-            
-        else: 
             print(f"{a} is not in the word")
         
-        
+        print(x)
+                
         if x == code_word:
             print(f"You won! The word was {code_word}") 
             break
