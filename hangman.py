@@ -10,9 +10,6 @@ def dashmaker(code_word, guess_letters):
     return dash_word
 
 
-# dashmaker("hello", ['h', 'l'])
-
-
 def main(): 
     code_word = random.choice(['electricity', 'donkey', 'hardware', 'xerox', 'transistor', 'computer', 'submarine', 'chess', 'resistance', 'matrix', 'function', 'laser', 'mechanism', 'bodyguard', 'titanic', 'global', 'ozone', 'bridge', 'technology', 'spider', 'six', 'seven', 'algorithm', 'blizzard', 'cascade', 'dynamo', 'eclipse', 'fossil', 'galaxy', 'horizon', 'isotope', 'junction', 'kinetic', 'labyrinth', 'magnet', 'nebula', 'orbit', 'prism', 'quantum', 'radar', 'satellite', 'telescope', 'umbrella', 'vacuum', 'warp', 'xenon', 'yield', 'zenith', 'anchovy', 'biscuit', 'cactus', 'dolphin', 'emerald', 'falcon', 'glacier', 'hammer', 'iguana', 'jungle', 'kangaroo', 'lantern', 'meteor', 'nomad', 'octopus', 'pioneer', 'quartz', 'relic', 'saffron', 'tornado', 'urchin', 'vortex', 'walrus', 'xylophone', 'yacht', 'zodiac', 'altitude', 'battery', 'compass', 'dynasty', 'element', 'friction', 'gravity', 'habitat', 'ignition', 'jigsaw', 'kernel', 'latitude', 'molecule', 'nucleus', 'oxygen', 'piston', 'quasar', 'reactor', 'solstice', 'turbine', 'ultrasound', 'velocity', 'wavelength', 'xray', 'yolk', 'zephyr'])
     guess_letters = []
@@ -47,7 +44,6 @@ def main():
 
 
         
-
 main()
 
     
